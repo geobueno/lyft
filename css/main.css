@@ -1,3 +1,99 @@
-/*
- * Estilos de tu proyecto
- */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+  *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+body {
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #373a3c;
+  background-color: #fff;
+  margin: 0;
+  background: url("file:///C:/Users/georgete/Documents/Laboratoria/6_Semana/lyft/assets/images/hero.gif") no-repeat;
+  background-color: white;
+  background-size: auto 142%;
+  background-position: left center;
+  height: 542px;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  height: 120px;
+  flex-flow: row wrap;
+  margin-left: 42px;
+  margin-right: 90px;
+}
+
+nav.logo {
+  align-items: center;
+}
+
+.navbar-link {
+  color: white;
+  padding: 18px;
+  font-size: 19px;
+  font-weight: lighter;
+}
+
+img.logo {
+  height: 46px;
+}
+
+
+#form-box {
+
+  display: flex;
+  
+}
+
+.container {
+  justify-content: flex-end;
+  max-width: 600px;
+  height: 422px;
+  background-color: white;
+}
+#header {
+  display: flex;
+  height: 642px;
+  background: linear-gradient(#76278F, #2B1E66);
+  color: white;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  align-items: center;
+ 
+  
+  
+} 
+
+img.phone {
+  height: 500px;
+}
+
+.text-div h3 {
+  font-size: 26px;
+  }
+
+.text-div p {
+  font-size: 16px;
+  
+ }
+
+
+
+
+
+
